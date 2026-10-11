@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" font-family="system-ui, -apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#1677ff"/>
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="800" height="520" rx="12" fill="#ffffff"/>
+  <rect x="0" y="0" width="800" height="520" rx="12" fill="none" stroke="#d9d9d9" stroke-width="1.5"/>
+
+  <text x="400" y="38" text-anchor="middle" font-size="20" font-weight="700" fill="#1f1f1f">青少年成长支持系统 · 前端架构</text>
+
+  <!-- Browser shell -->
+  <rect x="40" y="60" width="720" height="360" rx="10" fill="#fafafa" stroke="#1677ff" stroke-width="2"/>
+  <text x="60" y="88" font-size="14" font-weight="600" fill="#1677ff">浏览器（React SPA）</text>
+
+  <!-- Pages -->
+  <rect x="70" y="105" width="220" height="90" rx="8" fill="#e6f4ff" stroke="#91caff" stroke-width="1.5"/>
+  <text x="180" y="128" text-anchor="middle" font-size="14" font-weight="600" fill="#0958d9">页面层 pages/</text>
+  <text x="180" y="150" text-anchor="middle" font-size="11" fill="#595959">心理测评 · 健康 · 学业</text>
+  <text x="180" y="168" text-anchor="middle" font-size="11" fill="#595959">职业 · 时间 · 社区 · 印记</text>
+
+  <!-- Components -->
+  <rect x="320" y="105" width="180" height="90" rx="8" fill="#f6ffed" stroke="#b7eb8f" stroke-width="1.5"/>
+  <text x="410" y="128" text-anchor="middle" font-size="14" font-weight="600" fill="#389e0d">组件层 components/</text>
+  <text x="410" y="150" text-anchor="middle" font-size="11" fill="#595959">Sidebar · 图表组件</text>
+  <text x="410" y="168" text-anchor="middle" font-size="11" fill="#595959">路由守卫</text>
+
+  <!-- Context -->
+  <rect x="530" y="105" width="200" height="90" rx="8" fill="#fff7e6" stroke="#ffd591" stroke-width="1.5"/>
+  <text x="630" y="128" text-anchor="middle" font-size="14" font-weight="600" fill="#d46b08">状态层 contexts/</text>
+  <text x="630" y="150" text-anchor="middle" font-size="11" fill="#595959">AuthContext</text>
+  <text x="630" y="168" text-anchor="middle" font-size="11" fill="#595959">用户鉴权与状态</text>
+
+  <!-- service -->
+  <rect x="160" y="250" width="480" height="80" rx="8" fill="#f9f0ff" stroke="#d3adf7" stroke-width="1.5"/>
+  <text x="400" y="275" text-anchor="middle" font-size="14" font-weight="600" fill="#531dab">服务层 services/</text>
+  <text x="400" y="297" text-anchor="middle" font-size="11" fill="#595959">api（Axios 封装） · auth · journal · storage</text>
+  <text x="400" y="315" text-anchor="middle" font-size="11" fill="#595959">统一请求拦截器 · 错误处理</text>
+
+  <!-- arrows -->
+  <line x1="290" y1="195" x2="360" y2="250" stroke="#1677ff" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="510" y1="195" x2="440" y2="250" stroke="#1677ff" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="400" y1="330" x2="400" y2="375" stroke="#1677ff" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- data targets -->
+  <rect x="120" y="385" width="250" height="70" rx="8" fill="#ffffff" stroke="#8c8c8c" stroke-width="1.5"/>
+  <text x="245" y="410" text-anchor="middle" font-size="13" font-weight="600" fill="#434343">localStorage（演示）</text>
+  <text x="245" y="430" text-anchor="middle" font-size="11" fill="#595959">用户数据与模拟数据</text>
+
+  <rect x="430" y="385" width="250" height="70" rx="8" fill="#ffffff" stroke="#8c8c8c" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="555" y="410" text-anchor="middle" font-size="13" font-weight="600" fill="#434343">后端 API（可接入）</text>
+  <text x="555" y="430" text-anchor="middle" font-size="11" fill="#595959">REACT_APP_API_BASE_URL 覆盖</text>
+
+  <line x1="245" y1="330" x2="245" y2="385" stroke="#1677ff" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="555" y1="330" x2="555" y2="385" stroke="#1677ff" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <text x="400" y="500" text-anchor="middle" font-size="11" fill="#8c8c8c">React 19 · TypeScript · Ant Design 5 · ECharts · React Router 6</text>
+</svg>
